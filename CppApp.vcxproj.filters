@@ -15,8 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="test-streams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3d-sphere-box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wall-2d-to-3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="CppApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

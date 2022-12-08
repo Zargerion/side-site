@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CppApp.cpp" />
+    <ClCompile Include="wall-2d-to-3d.cpp" />
+    <ClCompile Include="test-streams.cpp" />
+    <ClCompile Include="3d-sphere-box.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funks.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="vec3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
