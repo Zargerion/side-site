@@ -1,7 +1,17 @@
-#include <emscripten.h>
+#include <stdio.h>
+#include <emscripten/emscripten.h>
 
-EMSCRIPTEN_KEEPALIVE
-float add(float x, float y)
-{
-    return x + y;
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
+
+#ifdef __cplusplus
+#define EXTERN extern "C"
+#else
+#define EXTERN
+#endif
+
+EXTERN EMSCRIPTEN_KEEPALIVE void myFunction(int argc, char ** argv) {
+    printf("MyFunction Called\n");
 }
