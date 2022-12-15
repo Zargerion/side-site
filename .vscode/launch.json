@@ -29,8 +29,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Code/nothing",
-      "program": "c:/Code/nothing/build/Debug/outDebug",
+      "cwd": "c:/Code/nothing/c-cpp",
+      "program": "c:/Code/nothing/c-cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
