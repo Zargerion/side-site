@@ -1,2 +1,0 @@
-if wrong folder went to git so "git rm --cached 'your folder of file.exe'"
-if can sync git and github fitch -> pull -> push or sync
