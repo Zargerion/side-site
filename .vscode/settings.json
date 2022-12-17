@@ -1,5 +1,4 @@
 {
-  
   "C_Cpp.intelliSenseEngine": "Default",
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
@@ -34,6 +33,8 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
-
+  ],
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }
