@@ -1,0 +1,10 @@
+^C:\CODE\NOTHING\DOCKER\CLOUD-DOCKER\CMAKEFILES\F198277AFF28EAFFB8360B6133759E22\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/nothing/docker/cloud-docker -BC:/Code/nothing/docker/cloud-docker --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Code/nothing/docker/cloud-docker/cloud-docker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

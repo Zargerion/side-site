@@ -1,0 +1,3 @@
+C:/Code/nothing/docker/cloud-docker/CMakeFiles/out-exe.dir
+C:/Code/nothing/docker/cloud-docker/CMakeFiles/ALL_BUILD.dir
+C:/Code/nothing/docker/cloud-docker/CMakeFiles/ZERO_CHECK.dir

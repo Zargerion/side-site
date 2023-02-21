@@ -1,2 +1,3 @@
-in dir build "cmake .."
+(in dir build)
+cmake .. | cmake .
 cmake --build .

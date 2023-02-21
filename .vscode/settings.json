@@ -1,47 +1,21 @@
 {
+  
+  "cmake.configureSettings": {
+    "CMAKE_TOOLCHAIN_FILE": "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  },
+
   "[python]": {
     "editor.formatOnType": true,
-},
+  },
 
+  "terminal.integrated.env.windows": {
+      "MSYSTEM": "MINGW64"
+  },
 
-  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  
+  "C_Cpp.intelliSenseEngine": "default",
+  
 
-
-  "C_Cpp_Runner.msvcBatchPath": "",
-  "C_Cpp_Runner.cCompilerPath": "C:/msys64/mingw64/bin/gcc.exe",
-  "C_Cpp_Runner.cppCompilerPath": "g++",
-  "C_Cpp_Runner.debuggerPath": "gdb",
-  "C_Cpp_Runner.cStandard": "c17",
-  "C_Cpp_Runner.cppStandard": "gnu++17",
-  "C_Cpp_Runner.useMsvc": false,
-  "C_Cpp_Runner.warnings": [
-    "-Wall",
-    "-Wextra",
-    "-Wpedantic",
-    "-Wshadow",
-    "-Wformat=2",
-    "-Wconversion",
-    "-Wnull-dereference",
-    "-Wsign-conversion"
-  ],
-  "C_Cpp_Runner.enableWarnings": true,
-  "C_Cpp_Runner.warningsAsError": false,
-  "C_Cpp_Runner.compilerArgs": [],
-  "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
-  "C_Cpp_Runner.excludeSearch": [
-    "**/build",
-    "**/build/**",
-    "**/.*",
-    "**/.*/**",
-    "**/.vscode",
-    "**/.vscode/**"
-
-  ],
   "files.associations": {
     "iostream": "cpp",
     "vector": "cpp",
@@ -105,7 +79,8 @@
     "streambuf": "cpp",
     "thread": "cpp",
     "cinttypes": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "future": "cpp"
   },
   "git.ignoreLimitWarning": true
 
