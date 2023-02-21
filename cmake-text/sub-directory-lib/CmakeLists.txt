@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0) # Проверка версии CMake.
+									# Если версия установленой программы
+									# старее указаной, произайдёт аварийный выход.
+
+project(library)				# Название проекта
+
+set(SOURCE_LIB a.cpp)		# Установка переменной со списком исходников
+
+add_library(a STATIC ${SOURCE_LIB})# Создание статической библиотеки
+
+add_library(glut SHARED IMPORTED)
+
+set_property(TARGET glut PROPERTY
+             IMPORTED_LOCATION glut32.dll)
+
+target_link_libraries(${TARGET} glut)

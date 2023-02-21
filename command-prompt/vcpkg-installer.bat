@@ -1,0 +1,1 @@
+vcpkg install qt5 --downloads-root=c:\Code\nothing\c-cpp\qt-timer --triplet x64-windows-static

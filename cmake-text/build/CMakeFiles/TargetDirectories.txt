@@ -1,0 +1,5 @@
+C:/Code/nothing/cmake-text/build/CMakeFiles/main.dir
+C:/Code/nothing/cmake-text/build/CMakeFiles/ALL_BUILD.dir
+C:/Code/nothing/cmake-text/build/CMakeFiles/ZERO_CHECK.dir
+C:/Code/nothing/cmake-text/build/sub-directory-lib/CMakeFiles/a.dir
+C:/Code/nothing/cmake-text/build/sub-directory-lib/CMakeFiles/ALL_BUILD.dir

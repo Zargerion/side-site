@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) // argc is count of  all args v[]; argv let wri
     
     for (int i = 1; i < argc; i++)
     {
-        int number = atoi(argv[i]); // atoi converts int to *char (string)
+        int number = atoi(argv[i]); // atoi converts *char (string) to int 
 
           node *n = malloc(sizeof(node));
 
