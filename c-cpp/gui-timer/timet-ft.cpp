@@ -33,6 +33,6 @@ int main()
             nSec = nSec - 1;
         }
     }
-    system("shutdown -s -t 5");
+    //system("shutdown -s -t 5");
     return 0;
 }

@@ -82,7 +82,5 @@
     "typeinfo": "cpp",
     "future": "cpp"
   },
-  "git.ignoreLimitWarning": true
-
-
+  "git.ignoreLimitWarning": true,
 }

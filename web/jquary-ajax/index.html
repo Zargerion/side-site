@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Example</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<h1>Содержимое файла</h1>
+	<div id="content"></div>
+
+	<script>
+		$(document).ready(function(){
+			$.ajax({
+				url: "data.txt",
+				success: function(result){
+					$("#content").html(result);
+				}
+			});
+		});
+	</script>
+</body>
+</html>
