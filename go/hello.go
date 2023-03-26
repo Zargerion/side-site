@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"strconv"
 )
 
 type Info struct {
@@ -23,7 +24,16 @@ func main() {
 		return
 	}
 	fmt.Println(infos)
-	for
 	fmt.Println(infos.Products)
 
+}
+
+func StringToFloat(s string) (float64, error) {
+
+	f, err := strconv.ParseFloat(s, 64)
+	if err != nil {
+		fmt.Println(err)
+		return 0, err
+	}
+	return f, nil
 }
